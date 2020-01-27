@@ -1,0 +1,47 @@
+.comment {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.comment input {
+  width: 200px;
+  height: 30px;
+}
+.comment div span:last-child{
+  margin-left: 10px;
+}
+.comment div:nth-child(2) {
+  font-size: 16px;
+  color: black;
+}
+
+#start_con {
+  width: 500px;
+  height: 50px;
+  margin: auto;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: baseline;
+}
+
+.actions span:nth-child(3) {
+  font-size: 22px;
+}
+
+body {
+  width: 500px;
+  margin: auto;
+  color: #787878;
+}
+.animate {
+  animation: slideUp 1s;
+}
+@keyframes slideUp {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
