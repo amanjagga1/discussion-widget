@@ -1,6 +1,5 @@
 class Widget {
   //Id generator
-  static id = 1
   constructor(chats) {
     Widget.id = Object.keys(chats).length + 1
     console.log('chats', chats)
